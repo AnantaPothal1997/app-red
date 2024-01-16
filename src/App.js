@@ -1,13 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
+import Home from './components/Home';
+import HomeContainer from './containers/home.container';
 
 function App() {
   return (
     <>
-       <button type="button" class="btn btn-primary">Base class</button>
+    {/* <HomeContainer></HomeContainer>
+     
+     */}
 
-      <div className='alert al'> this is the bootstrap header</div>
-      <h1>this is the app component</h1>
+     <Home></Home>
     </>
   );
 }
